@@ -17,12 +17,12 @@ This project detects vehicles in a video stream and automatically flags **red li
 
 ## 📂 Project Structure  
 Vehicle-Detection-Project/
-├── 📄 main.py                    # Main script (vehicle detection + violation logging)
-├── 🎯 best.pt                    # YOLO trained weights  
-├── 🎥 Video_final_4.mp4          # Input video for detection
-├── 📁 violations/                # Saved images of violating vehicles
-├── 🎬 Annotated_Video.mp4        # Output video with annotations
-└── 📖 README.md                  # Project documentation
+- ├── 📄 main.py                    # Main script (vehicle detection + violation logging)
+- ├── 🎯 best.pt                    # YOLO trained weights  
+- ├── 🎥 Video_final_4.mp4          # Input video for detection
+- ├── 📁 violations/                # Saved images of violating vehicles
+- ├── 🎬 Annotated_Video.mp4        # Output video with annotations
+- └── 📖 README.md                  # Project documentation
 
 
 
