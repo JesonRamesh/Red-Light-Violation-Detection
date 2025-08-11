@@ -19,10 +19,12 @@ This project detects vehicles in a video stream and automatically flags **red li
 Vehicle-Detection-Project/
 - ├── 📄 main.py                    # Main script (vehicle detection + violation logging)
 - ├── 🎯 best.pt                    # YOLO trained weights  
-- ├── 🎥 Video_final_4.mp4          # Input video for detection
-- ├── 📁 violations/                # Saved images of violating vehicles
-- ├── 🎬 Annotated_Video.mp4        # Output video with annotations
+- ├── 🎥 Traffic_video.mp4          # Input video for detection
 - └── 📖 README.md                  # Project documentation
+
+## Project Resources
+- Model weights (`best.pt`) can be found at this [link](https://drive.google.com/file/d/1Xgj24nDc6lL3ns84RiZ8VudsDXAaUj4J/view?usp=sharing)
+- `Traffic_video.mp4` can be found at this [link](https://drive.google.com/file/d/1CBOSbbplceQn9xn85QFSolwhNxlK5Pk4/view?usp=sharing)
 
 ## 🤖 Model & Training Reference
 
