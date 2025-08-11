@@ -24,7 +24,7 @@ Vehicle-Detection-Project/
 - ├── 🎬 Annotated_Video.mp4        # Output video with annotations
 - └── 📖 README.md                  # Project documentation
 
-## Model & Training Reference
+## 🤖 Model & Training Reference
 
 The YOLO model (`best.pt`) used in this project was trained using a dataset and preprocessing pipeline from **Roboflow**, originally created and shared by another contributor.  
 
@@ -34,7 +34,7 @@ All credit for the dataset and preprocessing configuration goes to the original 
 
 
 
-## Installation and Setup
+## ⚙️ Installation and Setup
 1. **Clone this repository**
 ```bash
 git clone https://github.com/<your-username>/vehicle-detection.git
