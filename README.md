@@ -20,6 +20,7 @@ Vehicle-Detection-Project/
 - ├── 📄 main.py                    # Main script (vehicle detection + violation logging)
 - ├── 🎯 best.pt                    # YOLO trained weights  
 - ├── 🎥 Traffic_video.mp4          # Input video for detection
+- ├── 📄 Vehicle_Detection_Training.ipynb # Used for training the Roboflow model (optional)
 - └── 📖 README.md                  # Project documentation
 
 ## Project Resources
