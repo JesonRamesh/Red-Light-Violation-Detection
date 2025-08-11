@@ -1,6 +1,6 @@
 # 🚦 Vehicle Detection & Red Light Violation System  
 
-This project detects vehicles in a video stream and automatically flags **red light violations** using a YOLO-based object detection model. It processes traffic footage, identifies vehicles crossing the stop line during a red light, and saves cropped images of violating vehicles. It also provides a visual flash alert in the annotated video output.  
+This project detects vehicles in a video stream and automatically flags **red light violations** using a YOLO-based object detection model. It processes traffic footage, identifies vehicles crossing the stop line during a red light, and saves cropped images of violating vehicles. It also provides a visual flash alert in the annotated video output. NOTE: This project is a prototype and only includes a sample video footage, however, real-time video can be sourced and used as the input to the existing project.
 
 ## 📌 Features  
 - **Real-time Vehicle Detection** using a trained YOLO model (`best.pt`)  
