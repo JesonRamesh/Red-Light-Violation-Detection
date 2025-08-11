@@ -9,7 +9,7 @@ import numpy as np
 
 model = YOLO('best.pt')
 
-video_path = "Video_final_4.mp4"
+video_path = "Traffic_Video.mp4" # Use actual filename
 cap = cv.VideoCapture(video_path)
 
 os.makedirs("violations", exist_ok=True)
@@ -153,4 +153,5 @@ while cap.isOpened():
 
 cap.release()
 out.release()
+
 cv.destroyAllWindows()
