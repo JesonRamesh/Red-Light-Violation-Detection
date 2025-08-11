@@ -24,14 +24,14 @@ Vehicle-Detection-Project/
 - ├── 🎬 Annotated_Video.mp4        # Output video with annotations
 - └── 📖 README.md                  # Project documentation
 
-##  Model & Training Reference
+## Model & Training Reference
 
-The YOLO model (`best.pt`) used in this project was trained using the **Roboflow** platform. All data preprocessing, augmentation, and training workflows were managed through Roboflow.
+The YOLO model (`best.pt`) used in this project was trained using a dataset and preprocessing pipeline from **Roboflow**, originally created and shared by another contributor.  
 
-**Roboflow Project:** [Vehicle Object Detection Model](https://app.roboflow.com/vehicle-object-detection-oyglk/vehicle_detection-rdah2-wvwbb/generate/preprocessing)  
-This includes dataset annotation, train-validation-test splits, and export of the YOLO model with compatible weights and configuration files.
+**Original Roboflow Project:** [Vehicle Object Detection Model](https://app.roboflow.com/vehicle-object-detection-oyglk/vehicle_detection-rdah2-wvwbb/generate/preprocessing)  
 
-If you’d like to replicate the training process or customize the dataset, you can reference the above link for preprocessing and augmentation settings.
+All credit for the dataset and preprocessing configuration goes to the original creator. This repository only covers the detection, logging, and visualization implementation.
+
 
 
 ## Installation and Setup
